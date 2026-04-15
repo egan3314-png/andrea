@@ -1,0 +1,45 @@
+export const siteConfig = {
+  name: "冯安琪",
+  nameEn: "Feng Anqi",
+  title: "冯安琪｜用户研究 × 数据分析 × 内容增长",
+  description: "应用心理学硕士在读，具备用户研究、数据分析、内容运营与项目推进的复合背景。",
+  headline: "用数据理解行为，用洞察驱动用户与内容增长",
+  headlineEn: "Understanding people through data, behavior, and insight.",
+  subheadline: "应用心理学硕士在读，具备用户研究、数据分析、内容运营与项目推进的复合背景。",
+  email: "feng18981141600@163.com",
+  keywords: ["Psychology", "Research", "Insight", "Growth", "Content", "Strategy"],
+  nav: [
+    { name: "Home", href: "/" },
+    { name: "About", href: "/about" },
+    { name: "Projects", href: "/projects" },
+    { name: "Experience", href: "/experience" },
+    { name: "Resume", href: "/resume" },
+    { name: "Portfolio", href: "/portfolio" },
+  ],
+  coreCapabilities: [
+    {
+      title: "用户研究",
+      titleEn: "User Research",
+      description: "问卷、访谈、需求提炼与洞察输出",
+      icon: "search",
+    },
+    {
+      title: "数据分析",
+      titleEn: "Data Analysis",
+      description: "SPSS、Python、Mplus 与建模分析",
+      icon: "chart",
+    },
+    {
+      title: "内容增长",
+      titleEn: "Content Growth",
+      description: "公众号、小红书、社群与传播策划",
+      icon: "growth",
+    },
+    {
+      title: "项目执行",
+      titleEn: "Execution",
+      description: "跨团队协同、活动推进与落地支持",
+      icon: "tasks",
+    },
+  ],
+}
